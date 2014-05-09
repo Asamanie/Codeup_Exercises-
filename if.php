@@ -5,12 +5,14 @@ $b = 10;
 $c = '10';
 
     // add an else clause to the next two statements 
-if ($a < $b) {
+if ($a < $b) 
+{
     // output the appropriate result
     echo "$a is less than $b\n";
-    else {
-        echo "$a is greater than $b\n";
-    }
+else 
+{
+    echo "$a is greater than $b\n";
+}
 }
 
 if ($b > $a) {
@@ -42,7 +44,9 @@ if ($b <= $c) {
 // identical, equal, not identical, not equal
 if ($b == $c) {
     // output the appropriate result
-    echo "$b is equal to $c";
+    echo "$b is equal to $c\n";
+} elseif ($b === $c\n) {
+    # code...
 }
 
 if ($b === $c) {
