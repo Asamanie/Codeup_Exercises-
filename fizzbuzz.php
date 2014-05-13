@@ -1,9 +1,9 @@
 <?php
-
+// assign the value
 $a = 1;
 
 // getting the numbers to count from 1-100
-for ($a = 0; $a <=100; $a += 1){
+for ($a = 1; $a <=100; $a += 1){
 	echo "$a\n";
 
 // adding bizz statement 
@@ -15,4 +15,5 @@ for ($a = 0; $a <=100; $a += 1){
 	 	echo "Buzz\n";
 	}
 }
+
 
