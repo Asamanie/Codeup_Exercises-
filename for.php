@@ -1,9 +1,9 @@
 <?php
 
 // greet the user  
-echo "Hello!\n";
+echo "Hello.........\n";
 
-	// ask user to input number 
+	// ask user to input number, if not a number close program 
 	fwrite (STDOUT, 'please pick a number ');
 
 	// Get the input from user
@@ -13,7 +13,7 @@ echo "Hello!\n";
 	exit;
 	}
 
-	// ask user to input second number 
+	// ask user to input second number, if not a number close program
 	fwrite(STDOUT, 'please pick another number ');
 
 	// Get the input from user
