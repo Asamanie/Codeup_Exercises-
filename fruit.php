@@ -14,6 +14,7 @@
 // 		echo "$name\n";	
 // 	}
 
+// KEY = fruit type, VALUE = color 
 $fruits = array(
     		array('name' => 'apple',  'color' => 'red'),
     		array('name' => 'orange', 'color' => 'organge'),
