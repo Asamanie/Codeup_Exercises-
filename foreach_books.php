@@ -29,8 +29,8 @@ $books = array(
 		foreach ($books as $book => $properties) {
 			if ($properties['published'] > 1950) {
 			echo $book . PHP_EOL;
-			foreach ($properties as $property => $value) {	
+				foreach ($properties as $property => $value) {	
 				echo "{$property}: {$value}\n";
 				}
 			}	
-	}
+		}
