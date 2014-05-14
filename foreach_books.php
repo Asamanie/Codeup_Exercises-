@@ -28,7 +28,7 @@ $books = array(
 			);
 		foreach ($books as $book => $properties) {
 			echo $book . PHP_EOL;
-			// echo "__________";
+			
 				foreach ($properties as $property => $value) {	
 					echo "{$property}: {$value}\n";
 				}
