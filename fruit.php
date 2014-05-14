@@ -15,11 +15,11 @@
 // 	}
 
 $fruits = array(
-    		array('name' => 'apple', 'color' => 'red'),
+    		array('name' => 'apple',  'color' => 'red'),
     		array('name' => 'orange', 'color' => 'organge'),
-    		array('name' => 'grape', 'color' => 'purple'),
-    		array('name' => 'lime', 'color' => 'green'),
-    		array('name' => 'lemon', 'color' => 'yellow')
+    		array('name' => 'grape',  'color' => 'purple'),
+    		array('name' => 'lime',   'color' => 'green'),
+    		array('name' => 'lemon',  'color' => 'yellow')
     	);
 	foreach ($fruits as $fruit) {
 		echo $fruit['name'] . " is "  . $fruit['color'] . PHP_EOL;
