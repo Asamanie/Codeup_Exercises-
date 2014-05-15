@@ -1,18 +1,30 @@
 <?php
 
-function add($a, $b) {
+// add function w/ return statement 
+// function add($a, $b) {
+//     if (is_numeric($a) && is_numeric($b)) {
+//    		return $a + $b; 
+//    	} else {
+//    	   	return "ERROR: \$a or \$b must be a number\n";	
+//     }
+//  }
 
-    if (is_numeric($a) && is_numeric($b)) {
-   		return $a + $b; 
-   	} else {
-   	   	return "ERROR: \$a or \$b must be a number\n";	
-    }
- }
+// $sum = add(2, 3);
+// echo $sum . PHP_EOL;
 
-$sum = add(2, 3);
+
+// divide function w/ return
+function divide($a, $b) {
+	
+	if (is_numeric($a) && is_numeric($b)) {
+		return $a / $b;
+	} else {
+		return "false\n";
+	}
+}
+
+$sum = divide('a',4);
 echo $sum . PHP_EOL;
-
-
 
 // function error (){
 // 	echo "<<< ERROR >>>"
@@ -29,7 +41,7 @@ echo $sum . PHP_EOL;
 //      echo PHP_EOL;
 // }
 
-// add(3,4);
+// add(3,b);
 
 // subtract 
 
