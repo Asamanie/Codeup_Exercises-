@@ -1,21 +1,24 @@
 <?php
 
 
+function error (){
+	echo "<<< ERROR >>>"
+}
 // addition 
 
-// function adder($a, $b) {
-//     if (is_numeric($a) && is_numeric($b)){
-//    		echo $a + $b; 
-//    	} else {
-//    	   	echo 'ERROR: $a or $b must be a number';	
-//      }
-//      echo PHP_EOL;
-// }
+function add($a, $b) {
 
-// adder(3,4);
+    if (is_numeric($a) && is_numeric($b)){
+   		echo $a + $b; 
+   	} else {
+   	   	echo 'ERROR: $a or $b must be a number';	
+     }
+     echo PHP_EOL;
+}
 
+add(3,4);
 
-
+// subtract 
 
 // function subtract($a, $b) {
 //     if (is_numeric($a) && is_numeric($b)){
@@ -29,6 +32,7 @@
 // subtract(a,4);
 
 
+// multiply
 
 // function multiply($a, $b) {
 //     if (is_numeric($a) && is_numeric($b)){
@@ -40,26 +44,32 @@
 // }
 // multiply(a,4);
 
+// divide
 
-// function divide($a, $b) {
+function divide($a, $b) {
+    if (is_numeric($a) && is_numeric($b)){
+    echo $a / $b
+	} else }
+	  echo 'ERROR: $a or $b must be a number';
+	}
+	echo PHP_EOL; 
+}
+divide(20,2);
+
+
+// function modulus($a, $b) {
 //     if (is_numeric($a) && is_numeric($b)){
-//     echo $a / $b
+//     echo $a % $b
 // 	} else }
 // 	  echo 'ERROR: $a or $b must be a number';
 // 	}
 // 	echo PHP_EOL; 
 // }
-// divide(20,2);
+// modulus(20,2);
 
 
 
-if ($strict === true) {
- 		echo $a === $b ? 'True' : 'False';
- 	} else {
- 		echo $a == $b ? 'True' : 'False';
- 	}
- 	echo PHP_EOL;
-}
- compare(42, 42, true);
+
+
 
 
