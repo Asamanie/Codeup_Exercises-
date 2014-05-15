@@ -2,9 +2,23 @@
 
 
 // adding
-// function subtract($a, $b) {
+// function add($a, $b) {
 //     if (is_numeric($a) && is_numeric($b)){
 //    		echo $a + $b; 
+//    	} else {
+//    	   	echo 'ERROR: $a or $b must be a number';	
+//      }
+//      echo PHP_EOL;
+// }
+
+// add(a,4);
+
+
+
+
+// function subtract($a, $b) {
+//     if (is_numeric($a) && is_numeric($b)){
+//    		echo $a - $b; 
 //    	} else {
 //    	   	echo 'ERROR: $a or $b must be a number';	
 //      }
@@ -17,7 +31,7 @@
 
 function multiply($a, $b) {
     if (is_numeric($a) && is_numeric($b)){
-    echo $a - $b;
+    echo $a * $b;
 		} else }
 		 echo 'ERROR: $a or $b must be a number';
 		}
