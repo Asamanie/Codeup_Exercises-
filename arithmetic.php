@@ -2,10 +2,10 @@
 
 
 // adding
-function addrer($a, $b) {
+function add($a, $b) {
     echo $a + $b . PHP_EOL;
 }
-addrer(2,4);
+add(2,4);
 
  function subtract($a, $b) {
     echo $a - $b . PHP_EOL;
