@@ -1,22 +1,35 @@
 <?php
 
-
-function error (){
-	echo "<<< ERROR >>>"
-}
-// addition 
-
 function add($a, $b) {
 
-    if (is_numeric($a) && is_numeric($b)){
-   		echo $a + $b; 
+    if (is_numeric($a) && is_numeric($b)) {
+   		return $a + $b; 
    	} else {
-   	   	echo 'ERROR: $a or $b must be a number';	
-     }
-     echo PHP_EOL;
-}
+   	   	return "ERROR: \$a or \$b must be a number\n";	
+    }
+ }
 
-add(3,4);
+$sum = add(2, 3);
+echo $sum . PHP_EOL;
+
+
+
+// function error (){
+// 	echo "<<< ERROR >>>"
+// }
+// // addition 
+
+// function add($a, $b) {
+
+//     if (is_numeric($a) && is_numeric($b)){
+//    		echo $a + $b; 
+//    	} else {
+//    	   	echo 'ERROR: $a or $b must be a number';	
+//      }
+//      echo PHP_EOL;
+// }
+
+// add(3,4);
 
 // subtract 
 
@@ -46,15 +59,15 @@ add(3,4);
 
 // divide
 
-function divide($a, $b) {
-    if (is_numeric($a) && is_numeric($b)){
-    echo $a / $b
-	} else }
-	  echo 'ERROR: $a or $b must be a number';
-	}
-	echo PHP_EOL; 
-}
-divide(20,2);
+// function divide($a, $b) {
+//     if (is_numeric($a) && is_numeric($b)){
+//     echo $a / $b
+// 	} else }
+// 	  echo 'ERROR: $a or $b must be a number';
+// 	}
+// 	echo PHP_EOL; 
+// }
+// divide(20,2);
 
 
 // function modulus($a, $b) {
