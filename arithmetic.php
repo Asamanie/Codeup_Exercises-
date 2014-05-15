@@ -1,7 +1,7 @@
 <?php
 
 
-// addition
+// addition 
 
 // function adder($a, $b) {
 //     if (is_numeric($a) && is_numeric($b)){
