@@ -4,10 +4,11 @@ $nothing = NULL;
 $something = '';
 $array = array(1,2,3);
 
-function printThing($array){
-		if (isset($array['array'])
-		{
-			echo "{$array}"; 
+function printThing($a){
+		if (isset($a)) {
+			return "is SET\n";
 		}
-		echo "{$array\n";
+		else {empty($a){
+			return "is NOT SET\n";
+		}
 }
