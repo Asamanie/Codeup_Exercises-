@@ -19,11 +19,11 @@ function divide($a, $b) {
 	if (is_numeric($a) && is_numeric($b)) {
 		return $a / $b;
 	} else {
-		return "false\n";
+		return trim("false\n");
 	}
 }
 
-$sum = divide('a',4);
+$sum = divide(10,5);
 echo $sum . PHP_EOL;
 
 // function error (){
