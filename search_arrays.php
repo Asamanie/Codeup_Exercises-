@@ -17,8 +17,7 @@ function array_has_value($needle, $haystack)
 	}
 }
 
-
-var_dump(array_has_value('Bob', $names));
+var_dump(array_has_value('Bob', $names)); // commit out if you dont want bool value
 
 function array_common_name($array1, $array2)
 {
