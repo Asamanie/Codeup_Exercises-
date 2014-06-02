@@ -3,16 +3,24 @@
 // written on (line 30) all code above is from my refresher
 
 
-// ask the user for a starting number 
-fwrite(STDOUT, "Hello....Please pick a low number.\n");
+// ask the user for a starting number.  exit if number is not selected  
+fwrite(STDOUT, "Please pick a low number.  ");
 // get the first number from the user
 $first_number = trim(fgets(STDIN));
-//ask user to pick a second number 
-fwrite(STDOUT, "Please pick high number.\n");
+if (!is_numeric($first_number)) {
+	echo "please use numbers only\n";
+exit;
+}
+//ask user to pick a second number. exit if number is not selected  
+fwrite(STDOUT, "Please pick a high number.  ");
 // get the second number from the user
 $second_number = trim(fgets(STDIN));
+if (!is_numeric($second_number)) {
+	echo "please use numbers only\n";
+exit;
+}
 // ask user how they would like to number to increment
-fwrite(STDOUT, "How would you like the number to increment?\n");
+fwrite(STDOUT, "How would you like the number to increment?  ");
 // get the incrementor from user
 $i = fgets(STDIN);
 // loop through w/ a FOR loop to count from low to high
