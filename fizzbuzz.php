@@ -1,19 +1,16 @@
 <?php
-// assign the value
-$a = 1;
 
-// getting the numbers to count from 1-100
-for ($a = 1; $a <=100; $a += 1){
-	echo "$a\n";
 
-// adding bizz statement 
-	if($a % 3 == 0)  {
-		echo "Bizz\n";
+for ($a = 1; $a <= 100; $a++){
+	if ($a % 3 == 0 && $a % 5 == 0) {
+		echo "FizzBuzz\n";
 	}
-// adding buzz statement
+	elseif ($a % 3 == 0) {
+		echo "Fizz\n";
+	}
 	elseif ($a % 5 == 0) {
-	 	echo "Buzz\n";
+		echo "Buzz\n";
 	}
+	echo "$a\n";
 }
-
 
