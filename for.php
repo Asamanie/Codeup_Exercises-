@@ -1,4 +1,7 @@
 <?php
+// reviewing code from codeup exercises, code from class was 
+// written on (line 30) all code above is from my refresher
+
 
 // ask the user for a starting number 
 fwrite(STDOUT, "Hello....Please pick a low number.\n");
@@ -8,9 +11,12 @@ $first_number = trim(fgets(STDIN));
 fwrite(STDOUT, "Please pick high number.\n");
 // get the second number from the user
 $second_number = trim(fgets(STDIN));
-
+// ask user how they would like to number to increment
+fwrite(STDOUT, "How would you like the number to increment?\n");
+// get the incrementor from user
+$i = fgets(STDIN);
 // loop through w/ a FOR loop to count from low to high
-for ($first_number = $first_number; $first_number <= $second_number; $first_number++) { 
+for ($first_number = $first_number; $first_number <= $second_number; $first_number = $first_number + $i) { 
 		echo "$first_number\n";
 }
 
